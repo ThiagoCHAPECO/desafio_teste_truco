@@ -1,0 +1,142 @@
+TAP version 13
+# Subtest: CT01 - baralho limpo tem 40 cartas e exclui 8, 9 e 10
+ok 1 - CT01 - baralho limpo tem 40 cartas e exclui 8, 9 e 10
+  ---
+  duration_ms: 1.7062
+  type: 'test'
+  ...
+# Subtest: CT02 - ordem normal vai de 4 ate 3
+ok 2 - CT02 - ordem normal vai de 4 ate 3
+  ---
+  duration_ms: 0.2739
+  type: 'test'
+  ...
+# Subtest: CT03 - manilha e o valor seguinte ao vira, com volta de 3 para 4
+ok 3 - CT03 - manilha e o valor seguinte ao vira, com volta de 3 para 4
+  ---
+  duration_ms: 0.1584
+  type: 'test'
+  ...
+# Subtest: CT04 - naipes das manilhas: ouros, espadas, copas e paus
+ok 4 - CT04 - naipes das manilhas: ouros, espadas, copas e paus
+  ---
+  duration_ms: 0.1807
+  type: 'test'
+  ...
+# Subtest: CT05 - carta ou vaza invalida e rejeitada
+ok 5 - CT05 - carta ou vaza invalida e rejeitada
+  ---
+  duration_ms: 0.7133
+  type: 'test'
+  ...
+# Subtest: CT06 - maior carta vence, empate adversario amarra, empate parceiro vence dupla
+ok 6 - CT06 - maior carta vence, empate adversario amarra, empate parceiro vence dupla
+  ---
+  duration_ms: 0.3254
+  type: 'test'
+  ...
+# Subtest: CT07 - duas vazas vencidas encerram a mao
+ok 7 - CT07 - duas vazas vencidas encerram a mao
+  ---
+  duration_ms: 0.2798
+  type: 'test'
+  ...
+# Subtest: CT08 - regras de desempate das vazas
+ok 8 - CT08 - regras de desempate das vazas
+  ---
+  duration_ms: 0.2098
+  type: 'test'
+  ...
+# Subtest: CT09 - distribui tres cartas para quatro jogadores e um vira
+ok 9 - CT09 - distribui tres cartas para quatro jogadores e um vira
+  ---
+  duration_ms: 1.6941
+  type: 'test'
+  ...
+# Subtest: CT10 - rejeita distribuicao repetida e inicio durante mao aberta
+ok 10 - CT10 - rejeita distribuicao repetida e inicio durante mao aberta
+  ---
+  duration_ms: 0.3073
+  type: 'test'
+  ...
+# Subtest: CT11 - exige turno correto e carta disponivel sem alterar a mao
+ok 11 - CT11 - exige turno correto e carta disponivel sem alterar a mao
+  ---
+  duration_ms: 0.7695
+  type: 'test'
+  ...
+# Subtest: CT12 - aceitar truco eleva o valor para tres e preserva o turno
+ok 12 - CT12 - aceitar truco eleva o valor para tres e preserva o turno
+  ---
+  duration_ms: 0.4296
+  type: 'test'
+  ...
+# Subtest: CT13 - recusar truco da um ponto a dupla solicitante
+ok 13 - CT13 - recusar truco da um ponto a dupla solicitante
+  ---
+  duration_ms: 0.246
+  type: 'test'
+  ...
+# Subtest: CT14 - escalada aceita segue 3, 6, 9 e 12; recusa paga valor anterior
+ok 14 - CT14 - escalada aceita segue 3, 6, 9 e 12; recusa paga valor anterior
+  ---
+  duration_ms: 0.3182
+  type: 'test'
+  ...
+# Subtest: CT15 - mao de onze exige decisao e vale tres quando aceita
+ok 15 - CT15 - mao de onze exige decisao e vale tres quando aceita
+  ---
+  duration_ms: 0.3275
+  type: 'test'
+  ...
+# Subtest: CT16 - recusar mao de onze concede um ponto ao adversario
+ok 16 - CT16 - recusar mao de onze concede um ponto ao adversario
+  ---
+  duration_ms: 0.1863
+  type: 'test'
+  ...
+# Subtest: CT17 - partida completa termina ao atingir doze pontos
+ok 17 - CT17 - partida completa termina ao atingir doze pontos
+  ---
+  duration_ms: 0.3627
+  type: 'test'
+  ...
+# Subtest: CT18 - snapshots e placar inicial nao permitem alterar estado interno
+ok 18 - CT18 - snapshots e placar inicial nao permitem alterar estado interno
+  ---
+  duration_ms: 0.2419
+  type: 'test'
+  ...
+# Subtest: CT19 - mao de ferro oculta cartas e vira e nao permite truco
+ok 19 - CT19 - mao de ferro oculta cartas e vira e nao permite truco
+  ---
+  duration_ms: 0.3231
+  type: 'test'
+  ...
+# Subtest: CT20 - mao normal pontua um e permite iniciar a proxima mao
+ok 20 - CT20 - mao normal pontua um e permite iniciar a proxima mao
+  ---
+  duration_ms: 0.3221
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 162.8314
+# start of coverage report
+# ---------------------------------------------------------------
+# file           | line % | branch % | funcs % | uncovered lines
+# ---------------------------------------------------------------
+# src            |        |          |         | 
+#  truco.js      | 100.00 |    94.96 |  100.00 | 
+# test           |        |          |         | 
+#  truco.test.js | 100.00 |   100.00 |  100.00 | 
+# ---------------------------------------------------------------
+# all files      | 100.00 |    96.53 |  100.00 | 
+# ---------------------------------------------------------------
+# end of coverage report

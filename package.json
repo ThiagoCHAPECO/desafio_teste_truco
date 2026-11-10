@@ -1,0 +1,14 @@
+{
+  "name": "desafio_teste_truco",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Desafio de teste de software: truco",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage"
+  }
+}
