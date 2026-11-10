@@ -2,7 +2,7 @@
 
 **Colaborador:** Thiago Gimenes.
 
-**Identificação acadêmica:** preencher RA e turma antes de publicar. Se houver dupla, incluir o nome e o RA do segundo integrante e contribuições reais de ambos.
+**Identificação acadêmica:** NOME: Thiago Gimenes Santos. RA:24016862-2. TURMA: ESOFT-6S-A.
 
 ## Especificação do desafio
 
